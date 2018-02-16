@@ -166,13 +166,13 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * ~~[pry-rails](https://github.com/rweng/pry-rails)~~ - Avoid repeating yourself, use pry-rails instead of copying the initializer to every rails project. This is a small gem which causes rails console to open pry. It therefore depends on pry.
 
 ## Coding Style
-* [RuboCop](https://github.com/bbatsov/rubocop) - Rubocop is a Ruby static code analyzer. Out of the box it will enforce many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
-* [Rails Best Practice](https://github.com/railsbp/rails_best_practices) - Rails best practice is a code metric tool to check the quality of rails codes.
+* **[RuboCop](https://github.com/bbatsov/rubocop)** - Rubocop is a Ruby static code analyzer. Out of the box it will enforce many of the guidelines outlined in the community [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide).
+* **[Rails Best Practice](https://github.com/railsbp/rails_best_practices)** - Rails best practice is a code metric tool to check the quality of rails codes.
 * [Metric Fu]( https://github.com/metricfu/metric_fu) - A fist full of code metrics
-* [Pronto](https://github.com/mmozuras/pronto) - Quick automated code review of your changes
+* **[Pronto](https://github.com/mmozuras/pronto)** - Quick automated code review of your changes
 
 ## Testing
-* [rspec-rails](https://github.com/rspec/rspec-rails) - Rspec-rails is a testing framework for Rails 3.x and 4.x.
+* **[rspec-rails](https://github.com/rspec/rspec-rails)** - Rspec-rails is a testing framework for Rails 3.x and 4.x.
 * [Capybara](https://github.com/jnicklas/capybara) - Capybara helps you test web applications by simulating how a real user would interact with your app. And drivers:
   - [capybara-webkit](https://github.com/thoughtbot/capybara-webkit) - Capybara-webkit is a capybara driver that uses Webkit via QtWebkit.
   - [selenium-webdriver](https://github.com/vertis/selenium-webdriver) - Selenium-webdriver provides ruby bindings for WebDriver.
