@@ -40,8 +40,8 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 
 
 ### Omniauth
-* [omniauth-facebook](https://github.com/mkdynamic/omniauth-facebook)
-* [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
+* **[omniauth-facebook](https://github.com/mkdynamic/omniauth-facebook)**
+* **[omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)**
 * [omniauth-weibo-oauth2](https://github.com/beenhero/omniauth-weibo-oauth2)
 * [omniauth-twitter](https://github.com/arunagw/omniauth-twitter)
 * [omniauth-github](https://github.com/intridea/omniauth-github)
@@ -80,13 +80,12 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 ## Plugins
 * [Spreadsheet](https://github.com/zdavatz/spreadsheet) - Library is designed to read and write Spreadsheet Documents.
 * [Chartkick](https://github.com/ankane/chartkick) - Chartkick helps your to create beautiful Javascript charts with one line of Ruby.
-* [kaminari](https://github.com/amatsuda/kaminari) - A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Rails 3 and 4.
+* **[kaminari](https://github.com/amatsuda/kaminari)** - A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Rails 3 and 4.
 * [CKEditor](https://github.com/galetahub/ckeditor) - CKEditor is a WYSIWYG text editor designed to simplify web content creation. It brings common word processing features directly to your web pages. Enhance your website experience with our community maintained editor. [ckeditor.com](http://ckeditor.com)
 * [HTML::Pipeline](https://github.com/jch/html-pipeline) - GitHub HTML processing filters and utilities. This module includes a small framework for defining DOM based content filters and applying them to user provided content.
-* [Slack Notifier](https://github.com/stevenosloan/slack-notifier) is a simple wrapper to send notifications to [Slack](https://slack.com/) webhooks.
-* [Rails ERD](https://github.com/voormedia/rails-erd) - Generate Entity-Relationship Diagrams for Rails applications.
+* **[Slack Notifier](https://github.com/stevenosloan/slack-notifier)** is a simple wrapper to send notifications to [Slack](https://slack.com/) webhooks.
+* **[Rails ERD](https://github.com/voormedia/rails-erd)** - Generate Entity-Relationship Diagrams for Rails applications.
 * [Parity](https://github.com/thoughtbot/parity) - Shell commands for development, staging, and production parity for Heroku apps.
-* [Airbrussh](https://github.com/mattbrictson/airbrussh) - Airbrussh pretties up your SSHKit and Capistrano output
 
 ## API
 * [Grape](https://github.com/ruby-grape/grape) - Microframework to create REST-ful APIs in Ruby.
