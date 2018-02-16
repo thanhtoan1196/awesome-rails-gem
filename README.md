@@ -223,5 +223,5 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 ## Database
 * [rails_db](https://github.com/igorkasyanchuk/rails_db) - Rails Database Viewer and SQL Query Runner
 
-~~## Asset Pipeline~~
+## Asset Pipeline
 ~~* [Alaska](https://github.com/mavenlink/alaska) - ExecJS runtime with persistent connection to nodejs, speeds up your coffeescript compilation process during development and deployment.~~
