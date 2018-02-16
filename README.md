@@ -85,7 +85,7 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [HTML::Pipeline](https://github.com/jch/html-pipeline) - GitHub HTML processing filters and utilities. This module includes a small framework for defining DOM based content filters and applying them to user provided content.
 * **[Slack Notifier](https://github.com/stevenosloan/slack-notifier)** is a simple wrapper to send notifications to [Slack](https://slack.com/) webhooks.
 * **[Rails ERD](https://github.com/voormedia/rails-erd)** - Generate Entity-Relationship Diagrams for Rails applications.
-* [Parity](https://github.com/thoughtbot/parity) - Shell commands for development, staging, and production parity for Heroku apps.
+* ~~[Parity](https://github.com/thoughtbot/parity)~~ - Shell commands for development, staging, and production parity for Heroku apps.
 
 ## API
 * [Grape](https://github.com/ruby-grape/grape) - Microframework to create REST-ful APIs in Ruby.
