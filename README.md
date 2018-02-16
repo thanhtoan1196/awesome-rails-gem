@@ -88,11 +88,11 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * ~~[Parity](https://github.com/thoughtbot/parity)~~ - Shell commands for development, staging, and production parity for Heroku apps.
 
 ## API
-* [Grape](https://github.com/ruby-grape/grape) - Microframework to create REST-ful APIs in Ruby.
-* [ActiveModel::Serializers](https://github.com/rails-api/active_model_serializers) - Serializer brings convention over configuration to your JSON generation.
-* [Jbuilder](https://github.com/rails/jbuilder) - Jbuilder gives you a simple DSL for declaring JSON structures that beats massaging giant hash structures. This is particularly helpful when the generation process is fraught with conditionals and loops.
+* ~~[Grape](https://github.com/ruby-grape/grape)~~ - Microframework to create REST-ful APIs in Ruby.
+* ~~[ActiveModel::Serializers](https://github.com/rails-api/active_model_serializers)~~ - Serializer brings convention over configuration to your JSON generation.
+* **[Jbuilder](https://github.com/rails/jbuilder)** - Jbuilder gives you a simple DSL for declaring JSON structures that beats massaging giant hash structures. This is particularly helpful when the generation process is fraught with conditionals and loops.
 * [rest-client](https://github.com/rest-client/rest-client) - Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.
-* [has_scope](https://github.com/plataformatec/has_scope) - Map incoming controller parameters to named scopes in your resources.
+* **[has_scope](https://github.com/plataformatec/has_scope)** - Map incoming controller parameters to named scopes in your resources.
 * Documentation
 	* [Grape Swagger](https://github.com/ruby-grape/grape-swagger) - Autogenerate documentation on Grape API.
 	* [Grape Swagger UI](https://github.com/swagger-api/swagger-ui) - Display documentation that is generated using Grape Swagger.
@@ -134,22 +134,10 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
   * [sidekiq-scheduler](https://github.com/Moove-it/sidekiq-scheduler) - Lightweight job scheduler extension for Sidekiq
 * [Sucker Punch](https://github.com/brandonhilkert/sucker_punch) - Sucker punch is a single-process Ruby asynchronous processing library.
 
-## View Helper
-* [formtastic](https://github.com/justinfrench/formtastic) - Formtastic is a Rails FormBuilder DSL (with some other goodies) to make it far easier to create beautiful, semantically rich, syntactically awesome, readily stylable and wonderfully accessible HTML forms in your Rails applications
-* [Simple Form](https://github.com/plataformatec/simple_form) - Simple form aims to be as flexible as possible while helping you with powerful components to create your forms. The basic goal of Simple Form is to not touch your way of defining the layout, letting you find the better design for your eyes.
-* [Nested Form](https://github.com/ryanb/nested_form) - This is a Rails gem for conveniently manage multiple nested models in a single form. It does so in an unobtrusive way through jQuery or Prototype. It can also be integrated with Simple Form.
-* [meta-tags](https://github.com/kpumuk/meta-tags) - Search Engine Optimization (SEO) plugin for Ruby on Rails applications.
-* [active_link_to](https://github.com/comfy/active_link_to) - active_link_to adds css 'active' class to your links.
-* [cells](https://github.com/apotonick/cells) - Cells allow you to encapsulate parts of your UI into components into view models. View models, or cells, are simple ruby classes that can render templates.
-* [i18n Country Code Select](https://github.com/onomojo/i18n_country_select) - I18n Country Code Select Form Helper for Rails 3 & 4.
-* [Subdivision Select](https://github.com/cllns/subdivision_select) - A Rails plugin to populate a state/province select box from country_select.
-* [cocoon](https://github.com/nathanvda/cocoon) - Dynamic nested forms using jQuery made easy
-
 ## Environment Variables
-* [Config](https://github.com/railsconfig/config) - Multi-environment YAML style configurations that helps easily manage environment specific settings in an easy and usable manner.
+* **[Config](https://github.com/railsconfig/config)** - Multi-environment YAML style configurations that helps easily manage environment specific settings in an easy and usable manner.
 * [Figaro](https://github.com/laserlemon/figaro) - Figaro is very simple, Heroku-friendly Rails app configuration using ENV and a single YAML file.
-* [dotenv](https://github.com/bkeepers/dotenv) - Dotenv is a gem that allows you to set your environment variables in .env file, and it will load it in to ENV.
-* [opsworks-dotenv](https://github.com/mikamai/opsworks-dotenv) - Opsworks-dotenv let you configure the environment for you Rails application using OpsWorks, Chef and Dotenv.
+* ~~[dotenv](https://github.com/bkeepers/dotenv)~~ - Dotenv is a gem that allows you to set your environment variables in .env file, and it will load it in to ENV.
 
 ## Admin Panel
 * [ActiveAdmin](http://activeadmin.info) - ActiveAdmin is a administration framework for Ruby on Rails applications.
@@ -220,7 +208,18 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [Errbit](https://github.com/errbit/errbit) - Open source notifier gem compliant with Airbrake.
 
 ## Database
-* [rails_db](https://github.com/igorkasyanchuk/rails_db) - Rails Database Viewer and SQL Query Runner
+* **[rails_db](https://github.com/igorkasyanchuk/rails_db)** - Rails Database Viewer and SQL Query Runner
 
 ## Asset Pipeline
-* ~~[Alaska](https://github.com/mavenlink/alaska)~~ - ExecJS runtime with persistent connection to nodejs, speeds up your coffeescript compilation process during development and deployment.~~
+* [Alaska](https://github.com/mavenlink/alaska)~~ - ExecJS runtime with persistent connection to nodejs, speeds up your coffeescript compilation process during development and deployment.~~
+
+## View Helper
+* [formtastic](https://github.com/justinfrench/formtastic) - Formtastic is a Rails FormBuilder DSL (with some other goodies) to make it far easier to create beautiful, semantically rich, syntactically awesome, readily stylable and wonderfully accessible HTML forms in your Rails applications
+* [Simple Form](https://github.com/plataformatec/simple_form) - Simple form aims to be as flexible as possible while helping you with powerful components to create your forms. The basic goal of Simple Form is to not touch your way of defining the layout, letting you find the better design for your eyes.
+* [Nested Form](https://github.com/ryanb/nested_form) - This is a Rails gem for conveniently manage multiple nested models in a single form. It does so in an unobtrusive way through jQuery or Prototype. It can also be integrated with Simple Form.
+* [meta-tags](https://github.com/kpumuk/meta-tags) - Search Engine Optimization (SEO) plugin for Ruby on Rails applications.
+* [active_link_to](https://github.com/comfy/active_link_to) - active_link_to adds css 'active' class to your links.
+* [cells](https://github.com/apotonick/cells) - Cells allow you to encapsulate parts of your UI into components into view models. View models, or cells, are simple ruby classes that can render templates.
+* [i18n Country Code Select](https://github.com/onomojo/i18n_country_select) - I18n Country Code Select Form Helper for Rails 3 & 4.
+* [Subdivision Select](https://github.com/cllns/subdivision_select) - A Rails plugin to populate a state/province select box from country_select.
+* [cocoon](https://github.com/nathanvda/cocoon) - Dynamic nested forms using jQuery made easy
