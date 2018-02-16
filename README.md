@@ -26,11 +26,11 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 ## User
 
 ### Authentication
-* [Devise](https://github.com/plataformatec/devise/) - Devise is a flexible authentication solution for Rails based on Warden.
-* [Knock](https://github.com/nsarno/knock) - Seamless JWT authentication for Rails API.
-* [Clearance](https://github.com/thoughtbot/clearance) - Rails authentication with email & password.
-* [Devise token auth](https://github.com/lynndylanhurley/devise_token_auth) - Token based authentication for Rails JSON APIs.
-* [Sorcery](https://github.com/Sorcery/sorcery) - Magical Authentication for Rails. Supports ActiveRecord, DataMapper, Mongoid and MongoMapper.
+* **[Sorcery](https://github.com/Sorcery/sorcery)** - Magical Authentication for Rails. Supports ActiveRecord, DataMapper, Mongoid and MongoMapper.
+* ~~[Devise](https://github.com/plataformatec/devise/)~~ - Devise is a flexible authentication solution for Rails based on Warden.
+* ~~[Devise token auth](https://github.com/lynndylanhurley/devise_token_auth)~~ - Token based authentication for Rails JSON APIs.
+* ~~[Knock](https://github.com/nsarno/knock)~~ - Seamless JWT authentication for Rails API.
+* ~~[Clearance](https://github.com/thoughtbot/clearance)~~ - Rails authentication with email & password.
 
 ### Authorization
 * [Pundit](https://github.com/elabs/pundit) - Pundit provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scaleable authorization system.
@@ -48,11 +48,11 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 * [omniauth-linkedin-oauth2](https://github.com/decioferreira/omniauth-linkedin-oauth2)
 
 ## Active Record
+* [FriendlyId](https://github.com/norman/friendly_id) - FriendlyId is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.
 * [Enumerize](https://github.com/brainspec/enumerize) - Enumerated attributes with I18n and ActiveRecord/Mongoid support. It can be integrated with Simple Form.
 * [counter_culture](https://github.com/magnusvk/counter_culture) - Turbo-charged counter caches for your Rails app. Huge improvements over the Rails standard counter caches.
 * [custom_counter_cache](https://github.com/cedric/custom_counter_cache) - A simple approach to creating a custom counter cache that can be used across multiple models.
 * [Sequenced](https://github.com/djreimer/sequenced) - Sequenced is a simple gem that generates scoped sequential IDs for ActiveRecord models.
-* [FriendlyId](https://github.com/norman/friendly_id) - FriendlyId is the “Swiss Army bulldozer” of slugging and permalink plugins for ActiveRecord. It allows you to create pretty URL’s and work with human-friendly strings as if they were numeric ids for ActiveRecord models.
 * [AASM](https://github.com/aasm/aasm) - State machines for Ruby classes (plain Ruby, Rails Active Record, Mongoid).
 * [PaperTrail](https://github.com/airblade/paper_trail) - PaperTrail lets you track changes to your models' data. It's good for auditing or versioning.
 * [paranoia](https://github.com/rubysherpas/paranoia) - ActiveRecord plugin allowing you to hide and restore records without actually deleting them.
@@ -209,15 +209,15 @@ The goal is to help every Rails developer to build an awesome Rails product/serv
 
 ## Production
 * [Capistrano](https://github.com/capistrano/capistrano) - Remote multi-server automation tool.
-* [Slowpoke](https://github.com/ankane/slowpoke) - Rack::Timeout is great. Slowpoke makes it better.
-* [Rack Attack](https://github.com/kickstarter/rack-attack) - Rack middleware to blocking & throttling.
-* [Responders](https://github.com/plataformatec/responders) - A set of Rails responders to dry up your application.
 * [production_rails](https://github.com/ankane/production_rails) - Best practices for running Rails in production.
 * [Mina](https://github.com/mina-deploy/mina) - fast deployer and server automation tool.
+* [Rack Attack](https://github.com/kickstarter/rack-attack) - Rack middleware to blocking & throttling.
+* [Slowpoke](https://github.com/ankane/slowpoke) - Rack::Timeout is great. Slowpoke makes it better.
+* ~~[Responders](https://github.com/plataformatec/responders)~~ - A set of Rails responders to dry up your application.
 
 ## Error Logging
-* [Rollbar](https://github.com/rollbar/rollbar-gem) - Exception tracking and logging from Ruby to Rollbar.
-* [Airbrake](https://github.com/airbrake/airbrake) - Notifier gem for integrating apps with Airbrake
+* ~~[Rollbar](https://github.com/rollbar/rollbar-gem)~~ - Exception tracking and logging from Ruby to Rollbar.
+* ~~[Airbrake](https://github.com/airbrake/airbrake)~~ - Notifier gem for integrating apps with Airbrake
 * [Errbit](https://github.com/errbit/errbit) - Open source notifier gem compliant with Airbrake.
 
 ## Database
